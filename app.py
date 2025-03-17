@@ -35,7 +35,7 @@ if st.session_state["user"] is None:
                 st.success("Signup Successful! You can now Login.")
             except:
                 st.error("Signup Failed. Try a different email.")
-    
+
     elif login_option == "Login":
         if st.button("Login"):
             try:
